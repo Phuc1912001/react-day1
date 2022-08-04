@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CallApi from './components/CallAPI';
+import Course from './components/Course';
+import Table from './components/TableList';
+import TodoLisst from './components/TodoLisst';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TodoLisst/> */}
+      {/* <Course/> */}
+      {/* <CallApi/> */}
+      <Table/>
+     
     </div>
   );
 }
